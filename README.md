@@ -1,8 +1,8 @@
 
-# 🏔️ TrailSync — Trekking & Expedition Management Application
+# 🏔️ TrailForge — Trekking & Expedition Management Application
 
 <p align="center">
-  <img src="docs/screenshots/homepage.png" alt="TrailSync Platform Banner" width="100%" style="border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,0.12);" />
+  <img src="docs/screenshots/homepage.png" alt="TrailForge Platform Banner" width="100%" style="border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,0.12);" />
 </p>
 
 <p align="center">
@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://codebyakshitpunia-trailsync.hf.space"><img src="https://img.shields.io/badge/Live%20Demo-Hugging%20Face%20Spaces-blue?style=for-the-badge&logo=huggingface" alt="Live Demo" /></a>
-  <a href="https://github.com/codebyakshitpunia/TrailSync-Trekking-Management-Application/blob/main/Dockerfile"><img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Ready" /></a>
+  <a href="https://codebyakshitpunia-trailforge.hf.space"><img src="https://img.shields.io/badge/Live%20Demo-Hugging%20Face%20Spaces-blue?style=for-the-badge&logo=huggingface" alt="Live Demo" /></a>
+  <a href="https://github.com/codebyakshitpunia/TrailForge-Trekking-Management-Application/blob/main/Dockerfile"><img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Ready" /></a>
   <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/Frontend-Vue.js%203-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js 3" /></a>
   <a href="https://flask.palletsprojects.com/"><img src="https://img.shields.io/badge/Backend-Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask API" /></a>
   <a href="https://redis.io/"><img src="https://img.shields.io/badge/Cache-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis Cache" /></a>
@@ -21,13 +21,13 @@
 
 ## 🌐 Live Demo & Test Accounts
 
-🚀 **Live App URL**: [https://codebyakshitpunia-trailsync.hf.space](https://codebyakshitpunia-trailsync.hf.space)
+🚀 **Live App URL**: [https://codebyakshitpunia-trailforge.hf.space](https://codebyakshitpunia-trailforge.hf.space)
 
 Test the multi-role dashboards using these pre-seeded accounts:
 
 | Role | Email | Password | Access Capabilities |
 | :--- | :--- | :--- | :--- |
-| **Admin** | `admin@trailsync.com` | `admin123` | Full CRUD over treks, routes, guides, bookings, revenue analytics & support resolution |
+| **Admin** | `admin@trailforge.com` | `admin123` | Full CRUD over treks, routes, guides, bookings, revenue analytics & support resolution |
 | **Guide / Staff** | `staff@test.com` | `123456` | Active trek assignments, participant lists, altitude navigation tips & profile management |
 | **Trekker (User)** | `test@gmail.com` | `123456` | Browse treks, book itineraries, payment history, medical checklist & support ticket submission |
 
@@ -75,7 +75,7 @@ Test the multi-role dashboards using these pre-seeded accounts:
 
 | Staff Support Center | Trekker Community Social Feed |
 | :---: | :---: |
-| ![Staff Support Tab](docs/screenshots/staff_support_tab.png) | ![TrailSync Social](docs/screenshots/trailsync_social.png) |
+| ![Staff Support Tab](docs/screenshots/staff_support_tab.png) | ![TrailForge Social](docs/screenshots/trailforge_social.png) |
 
 ---
 
@@ -137,8 +137,8 @@ Test the multi-role dashboards using these pre-seeded accounts:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/codebyakshitpunia/TrailSync-Trekking-Management-Application.git
-   cd TrailSync-Trekking-Management-Application
+   git clone https://github.com/codebyakshitpunia/TrailForge-Trekking-Management-Application.git
+   cd TrailForge-Trekking-Management-Application
    ```
 
 2. **Create and activate virtual environment**:
@@ -167,10 +167,10 @@ The application is containerized with a multi-stage production Docker build:
 
 ```bash
 # Build the Docker image
-docker build -t trailsync .
+docker build -t trailforge .
 
 # Run the container locally
-docker run -p 7860:7860 trailsync
+docker run -p 7860:7860 trailforge
 ```
 
 Once started, the application is available locally at `http://localhost:7860`.
@@ -179,4 +179,4 @@ Once started, the application is available locally at `http://localhost:7860`.
 
 ## 📄 License & Attribution
 
-Distributed under the MIT License. Built for the TrailSync Trekking & Expedition Management Platform.
+Distributed under the MIT License. Built for the TrailForge Trekking & Expedition Management Platform.
